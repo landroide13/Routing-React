@@ -11,19 +11,19 @@ function Contact() {
               <hr />
 
               <form className="">
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="email" type="email" class="validate" />
+                <div className="row">
+                  <div className="input-field col s12">
+                    <input id="email" type="email" className="validate" />
                     <label for="email">Email</label>
                   </div>
                 </div>
 
-                <div class="row">
-                  <div class="row">
-                    <div class="input-field col s12">
+                <div className="row">
+                  <div className="row">
+                    <div className="input-field col s12">
                       <textarea
                         id="textarea1"
-                        class="materialize-textarea"
+                        className="materialize-textarea"
                       ></textarea>
                       <label for="textarea1">Textarea</label>
                     </div>

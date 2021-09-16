@@ -1,14 +1,18 @@
 
-
-nav li:hover{
+.font3{
+  font-size: 1.3rem;
   color: #ff6f00;
+}
+
+.font3:hover{
+  color: #eeeeee;
 }
 
 
 
-
-
-
+div.card-panel{
+  margin: 1rem 2rem;
+}
 
 
 
