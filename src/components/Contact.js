@@ -1,45 +1,80 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-function Contact() {
-  return (
-    <React.Fragment>
-      <div className="row top3">
-        <div className="col s12 m12">
-          <div className="card #212121 grey lighten-3">
-            <div className="card-content">
-              <span className="card-title">Contact Us</span>
-              <hr />
+export default class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      email: null,
+      message: null,
+      errors: {
+        email: '',
+        message: ''
+      }
+    }
+  }
 
-              <form className="">
-                <div className="row">
-                  <div className="input-field col s12">
-                    <input id="email" type="email" className="validate" />
-                    <label for="email">Email</label>
+  handleChange = e => {
+    this.setState({ [e.target.value]: e.target.value })
+  }
+
+  submitHandle = e => {
+    e.preventDefault(e)
+
+  }
+ 
+
+  
+
+
+  render() {
+    
+  
+    return (
+      <React.Fragment>
+        <div className="row top3">
+          <div className="col s12 m12">
+            <div className="card grey lighten-3">
+              <div className="card-content">
+                <span className="card-title">Contact Us</span>
+                <hr />
+
+                <form className="contact-form pa2" onSubmit={this.submitHandle} >
+                  <div className="row">
+                    <div className="input-field col s12">
+                      <input
+                        id="email"
+                        type="email"
+                        className="validate"
+                        onChange={this.handleChange}
+                      />
+                      <label>Email</label>
+                    </div>
                   </div>
-                </div>
 
-                <div className="row">
                   <div className="row">
                     <div className="input-field col s12">
                       <textarea
-                        id="textarea1"
+                        id="mess"
                         className="materialize-textarea"
+                        onChange={this.handleChange}
                       ></textarea>
-                      <label for="textarea1">Textarea</label>
+                      <label>Message</label>
                     </div>
                   </div>
-                </div>
-                <a className="waves-effect waves-light btn-large #ff6f00 amber darken-4">
-                  Send
-                </a>
-              </form>
+
+                  <div className="row">
+                    <div className="col s8 offset-s4">
+                      <a className="waves-effect waves-light btn-large amber darken-4">
+                        Send <i className="fas fa-paper-plane"></i>
+                      </a>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
-            <div className="card-action"></div>
           </div>
         </div>
-      </div>
-    </React.Fragment>
-  );
+      </React.Fragment>
+    );
+  }
 }
-
-export default Contact

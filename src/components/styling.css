@@ -31,7 +31,12 @@ div.card-panel{
 }
 
 
+form.contact-form{
+  display: flex;
+  flex-direction: column;
 
+  /* justify-content: space-evenly; */
+}
 
 
 
