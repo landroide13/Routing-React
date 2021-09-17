@@ -3,10 +3,10 @@ import React from 'react'
 function Contact() {
   return (
     <React.Fragment>
-      <div className="row">
+      <div className="row top3">
         <div className="col s12 m12">
-          <div className="card #212121 grey darken-4">
-            <div className="card-content white-text">
+          <div className="card #212121 grey lighten-3">
+            <div className="card-content">
               <span className="card-title">Contact Us</span>
               <hr />
 
@@ -30,7 +30,7 @@ function Contact() {
                   </div>
                 </div>
                 <a className="waves-effect waves-light btn-large #ff6f00 amber darken-4">
-                  Button
+                  Send
                 </a>
               </form>
             </div>
