@@ -36,7 +36,7 @@ export default class Contact extends Component {
             <div className="card grey lighten-3">
               <div className="card-content">
                 <span className="card-title">Contact Us</span>
-                <hr />
+                
 
                 <form className="contact-form pa2" onSubmit={this.submitHandle} >
                   <div className="row">
@@ -62,13 +62,16 @@ export default class Contact extends Component {
                     </div>
                   </div>
 
-                  <div className="row">
-                    <div className="col s8 offset-s4">
+                  
+                    <div className="col s12">
                       <a className="waves-effect waves-light btn-large amber darken-4">
                         Send <i className="fas fa-paper-plane"></i>
                       </a>
                     </div>
-                  </div>
+                  
+                  
+
+
                 </form>
               </div>
             </div>

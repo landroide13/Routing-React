@@ -39,7 +39,7 @@ export default class Dashboard extends Component {
                 <h5>Vaccine Record</h5>
                 <span className="">
                   <Link to="./NotFound">
-                    <i class="fas fa-file-medical fa-3x icon"></i>
+                    <i className="fas fa-file-medical fa-3x icon"></i>
                   </Link>
                 </span>
               </div>
@@ -50,7 +50,7 @@ export default class Dashboard extends Component {
                 <h5>Driving License</h5>
                 <span className="">
                   <Link to="./NotFound">
-                    <i class="fas fa-portrait fa-3x icon"></i>
+                    <i className="fas fa-portrait fa-3x icon"></i>
                   </Link>
                 </span>
               </div>
@@ -61,7 +61,7 @@ export default class Dashboard extends Component {
                 <h5>QR Code</h5>
                 <span className="">
                   <Link to="./Profile">
-                    <i class="fas fa-qrcode fa-3x icon"></i>
+                    <i className="fas fa-qrcode fa-3x icon"></i>
                   </Link>
                 </span>
               </div>
@@ -72,7 +72,7 @@ export default class Dashboard extends Component {
                 <h5>Picture</h5>
                 <span className="">
                   <Link to="./NotFound">
-                    <i class="fas fa-portrait fa-3x icon"></i>
+                    <i className="fas fa-portrait fa-3x icon"></i>
                   </Link>
                 </span>
               </div>

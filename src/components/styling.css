@@ -39,6 +39,13 @@ form.contact-form{
 }
 
 
+div.about-container{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
 
 
 
