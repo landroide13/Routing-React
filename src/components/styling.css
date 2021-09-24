@@ -30,6 +30,10 @@ div.card-panel{
   margin-top: 3rem;
 }
 
+.error{
+  color: #e64a19;
+}
+
 
 form.contact-form{
   display: flex;
@@ -42,8 +46,6 @@ form.contact-form{
 div.about-container{
   display: flex;
   flex-direction: column;
-
-
 }
 
 

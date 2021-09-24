@@ -17,7 +17,7 @@ export default class Dashboard extends Component {
                 <h5>Profile</h5>
                 <span className="">
                   <Link to="./Profile">
-                    <i class="fas fa-user-circle fa-3x icon"></i>
+                    <i className="fas fa-user-circle fa-3x icon"></i>
                   </Link>
                 </span>
               </div>
@@ -28,7 +28,7 @@ export default class Dashboard extends Component {
                 <h5>Passport</h5>
                 <span className="">
                   <Link to="./Profile">
-                    <i class="fas fa-passport fa-3x icon"></i>
+                    <i className="fas fa-passport fa-3x icon"></i>
                   </Link>
                 </span>
               </div>
@@ -58,7 +58,7 @@ export default class Dashboard extends Component {
 
             <div className="col s12 m6">
               <div className="card-panel #eeeeee grey lighten-3">
-                <h5>QR Code</h5>
+                <h5>Display QR</h5>
                 <span className="">
                   <Link to="./Profile">
                     <i className="fas fa-qrcode fa-3x icon"></i>
