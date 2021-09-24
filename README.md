@@ -3,10 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Styling by Materialize.
+Done
 
 ## Form valitation.
-
-## QR Code Tracking.
+Done.
 
 
 
